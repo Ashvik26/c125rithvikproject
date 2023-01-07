@@ -1,0 +1,37 @@
+.created-by{
+    position:fixed;
+    bottom:0;
+    line-height:3;
+    background-color:white;
+    color:lightblue;
+    text-align:center;
+    width:100%;
+    animation-name:footer;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes footer{
+    from{font-size:35px;}
+    to{font-size:15px;}
+    }
+    .top_heading{
+    width:100%;
+    margin:0px;
+    font-size:25px;
+    }
+    .note{
+    color:blueviolet;
+    font-size:20px;
+    }
+    canvas{
+    animation-name:rithvik;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+    }
+    @keyframes rithvik{
+    0%{box-shadow:3px 3px 40px black;}
+    25%{box-shadow:3px 3px 40px purple;}
+    50%{box-shadow:3px 3px 40px rgb(124, 218, 179);}
+    75%{box-shadow:3px 3px 40px rgb(212, 175, 72);}
+    100%{box-shadow:3px 3px 40px rgb(255, 21, 0);}
+    }
